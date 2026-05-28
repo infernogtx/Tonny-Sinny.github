@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+body {
+    background: url(img/bgbg.png);
+    background-position: center;
+    background-size: cover;
+    font-family: "Jost", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 200px;
+}
+.boxlogin {
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    padding: 50px;
+}
+.boxlogin h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+.inputbox {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.inputbox input {
+    height: 50px;
+    transition: 1s;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 3px 4px 4px;
+}
+.inputbox input:hover {
+    background-color: rgb(29, 29, 29);
+    transform: scale(1.05);
+}
+.boxlogin input::placeholder {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px; 
+    
+}
+.boxlogin input {
+    font-size: 30px;
+    border-radius: 20px; 
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    
+    
+}
+.inputbox i {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 313px;
+    font-size: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.icons .github {
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  transition: 1s;
+  box-shadow: 3px 4px 4px;
+}
+.github:hover {
+    background-color: rgb(53, 53, 53);
+    transform: scale(1.10);
+}
+.remember .remember__link {
+   margin-left: 100px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   transition: 1s;
+}
+.remember .remember__link:hover {
+   color: rgb(158, 158, 158);
+}
+.remember {
+    color: aliceblue;
+    font-size: 20px;
+    transition: 1s;
+    margin-top: 20px;
+}
+.remember:hover {
+    color: rgb(158, 158, 158);
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 6px 6px;
+    height: 3px;
+    color: aliceblue;
+}
+.social p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+.btn {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 2px;
+    transition: 1s;
+}
+.btn:hover {
+     background-color: rgb(27, 27, 27);
+     transform: scale(0.99);
+}
+
+
+
+
+
+
+
